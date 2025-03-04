@@ -9,8 +9,6 @@ type Props = {
 }
 export default function CardGeneric({ user, type }: Props) {
 
-  const userData = user;
-
   return (
     <>
       {
@@ -45,7 +43,6 @@ export default function CardGeneric({ user, type }: Props) {
                 </div>
               </div>
             </CardContent>
-
           </Card >
         )
       }

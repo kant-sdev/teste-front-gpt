@@ -1,6 +1,5 @@
 import ButtonGeneric from "@/components/layout/Button"
 import CardGeneric from "@/components/layout/CardGeneric"
-import { Button } from "@/components/ui/button"
 import { getUserById } from "@/services/users"
 import Link from "next/link"
 
